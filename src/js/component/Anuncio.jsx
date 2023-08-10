@@ -3,7 +3,8 @@ import React from "react";
 function Anuncio() {
 
   return (
-    <div>
+    <div className="visible">
+        <h1>Perdiste!</h1>
 
     </div>
   );
