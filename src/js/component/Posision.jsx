@@ -4,10 +4,12 @@ function Posision() {
 
   function ClickPosision (props){
     props.updateBoard(props.loc, props.turn);
-    
   }
   return (
-    <div>
+    <div className={"Posición" + this.props.loc} onClick={()=>this.ClickPosision(this.props)}>
+        <p>{this.props.value}</p>
+        
+        
     </div>
   );
 
